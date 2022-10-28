@@ -67,7 +67,7 @@ describe('Algebra booleana', () => {
     it("Usando el operador OR (||)", () => {
         const a = false;
         //completa la asignación de b
-        const b = false
+        const b = false;
         const expression = a || b;
         expect(expression).to.equal(false);
     })
