@@ -5,11 +5,11 @@ function evenOrOdd(n) {
 }
 
 function greeting(name) {
-    if (name = "Javi") {
-        greeting = "Hola, Javi!";
-      } else if (name = "gente"){
-        greeting = "Hola, gente!";
-      }  else if (name = "Mary"){
-        greeting = "Hola, Mary!";
+    if (name === "Javi") {
+        return "Hola, Javi!";
+      } else if (name === "gente"){
+        return "Hola, gente!";
+      }  else if (name === "Mary"){
+        return "Hola, Mary!";
       }
 }
