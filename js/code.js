@@ -12,4 +12,4 @@ function greeting(name) {
       }  else if (name === "Mary"){
         return "Hola, Mary!";
       }
-}
+} 
